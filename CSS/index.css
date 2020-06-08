@@ -1,0 +1,42 @@
+body {
+    background-image: url("../Imagenes/arqui2.jpg");
+    background-attachment: fixed;
+}
+
+.fondo1 {
+    background-color: #f7f7f7;
+    margin-bottom: 300px;
+}
+.fondo2 {
+    background-color: #f7f7f7;
+    margin-bottom: 300px;
+}
+.fondo3 {
+    background-color: #f7f7f7;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+li:hover {
+    /* background-color: blueviolet; */
+    color: salmon;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: Salmon;
+    color: white;
+  }
