@@ -12,6 +12,7 @@
     <script src="Librerias/bootstrap-4.3.1/js/bootstrap.bundle.js"></script>
     <script src="Librerias/bootstrap-4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="Librerias/bootstrap-4.3.1/js/bootstrap.js"></script>
+    <script src="JS/index.js"></script>
     <title>Document</title>
 </head>
 
@@ -20,15 +21,25 @@
         <div class="text-center mb-3">
             <img src="Imagenes/arqui2.jpg" width='100' height='100' class="rounded-circle" alt="Cinque Terre">
         </div>
-        <ul>
-            <li>Proyectos</li>
-            <li>Nosotros</li>
-            <li>Contacto</li>
-        </ul>
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col">
+                <span id="subir"><p class="text-light clickable">Proyecto</p></span>
+                <span id="nosotros"><i class="fas fa-chevron-circle-up fa-3x"></i></span>
+                <span id="contacto"><i class="fas fa-chevron-circle-up fa-3x"></i></span>
+                </div>
+            </div><br>
+        </div> -->
+        <ul class="navigation">
+            <li><a id="proyecto" href="#">Proyectos</a></li>
+            <li><a id="nosotros" href="#">Nosotros</a></li>
+            <li><a id="contacto" href="#">Contacto</a></li>
+        </ul><br>
     </div>
+
     <div class="fondo1">
         <div class="container"><br>
-            <h1 class="text-center mt-5">Proyectos</h1>
+            <h1 class="text-center mt-5">Proyectos</h1><br>
 
             <div class="text-center">
 
@@ -61,13 +72,28 @@
                     <img src="Imagenes/plano.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">A caption for the above image.</figcaption>
                 </figure>
+
+                <figure class="figure">
+                    <img src="Imagenes/arqui2.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+
+                <figure class="figure">
+                    <img src="Imagenes/arqui.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+
+                <figure class="figure">
+                    <img src="Imagenes/meeting.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
             </div>
 
         </div>
     </div>
     <div class="fondo2">
         <div class="container"><br>
-            <h1 class="text-center mt-5">Nosotros</h1>
+            <h1 class="text-center mt-5">Nosotros</h1><br>
             <div class="col-md-6 text-center mx-auto">
                 <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story.</p>
             </div><br><br>
@@ -105,9 +131,19 @@
                                     <div class="col text-right">
                                         <button type="submit" class="btn btn-secondary btn-block">Enviar</button>
                                     </div>
+
+
                                 </div>
+
                             </div><br><br><br>
                         </div>
+
+                        <div class="container">
+                            <div class="text-right text-center">
+                                <span id="subir"><i class="clickable fas fa-chevron-circle-up fa-3x"></i></span>
+                            </div>
+                        </div><br>
+
                     </form>
                 </div>
             </div>

@@ -1,6 +1,9 @@
 body {
-    background-image: url("../Imagenes/arqui2.jpg");
+    background-image: url("../Imagenes/puente2.jpg");
     background-attachment: fixed;
+}
+.menu {
+    background-image: url("../Imagenes/machine.jpg");
 }
 
 .fondo1 {
@@ -27,16 +30,27 @@ li {
     font-size: x-large;
     font-weight: bold;
     font-family: sans-serif;
-}
-
-li:hover {
-    /* background-color: blueviolet; */
-    color: salmon;
+    color: lavenderblush;
+    text-decoration: none;
 }
 
 footer {
     text-align: center;
     padding: 3px;
-    background-color: Salmon;
+    background-color: lightblue;
     color: white;
   }
+
+  .clickable {
+      cursor: all-scroll;
+  }
+
+  .navigation > li > a {
+      color: whitesmoke;
+  }
+
+  .navigation > li > a:hover {
+    color: salmon;
+    text-decoration: none;
+    cursor: pointer;
+   }
