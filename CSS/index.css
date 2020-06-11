@@ -13,6 +13,7 @@ body {
 .fondo2 {
     background-color: #f7f7f7;
     margin-bottom: 300px;
+    margin-bottom: 550px;
 }
 .fondo3 {
     background-color: #f7f7f7;
@@ -42,7 +43,7 @@ footer {
   }
 
   .clickable {
-      cursor: all-scroll;
+      cursor: pointer;
   }
 
   .navigation > li > a {

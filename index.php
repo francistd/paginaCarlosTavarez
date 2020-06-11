@@ -44,53 +44,54 @@
             <div class="text-center">
 
                 <figure class="figure">
-                    <img src="Imagenes/arqui2.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    <img src="Imagenes/arqui2.jpg"  width='300' height='300' class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">A caption for the above image.</figcaption>
                 </figure>
 
                 <figure class="figure">
-                    <img src="Imagenes/arqui.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    <img src="Imagenes/arqui.jpg"  width='300' height='300' class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">A caption for the above image.</figcaption>
                 </figure>
 
                 <figure class="figure">
-                    <img src="Imagenes/meeting.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    <img src="Imagenes/meeting.jpg"  width='300' height='300' class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">A caption for the above image.</figcaption>
                 </figure>
 
                 <figure class="figure">
-                    <img src="Imagenes/plano.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    <img src="Imagenes/plano.jpg"  width='300' height='300' class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">A caption for the above image.</figcaption>
                 </figure>
 
                 <figure class="figure">
-                    <img src="Imagenes/plano.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    <img src="Imagenes/plano.jpg"  width='300' height='300' class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">A caption for the above image.</figcaption>
                 </figure>
 
                 <figure class="figure">
-                    <img src="Imagenes/plano.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    <img src="Imagenes/plano.jpg"  width='300' height='300' class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">A caption for the above image.</figcaption>
                 </figure>
 
                 <figure class="figure">
-                    <img src="Imagenes/arqui2.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    <img src="Imagenes/arqui2.jpg"  width='300' height='300' class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">A caption for the above image.</figcaption>
                 </figure>
 
                 <figure class="figure">
-                    <img src="Imagenes/arqui.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    <img src="Imagenes/arqui.jpg"  width='300' height='300' class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">A caption for the above image.</figcaption>
                 </figure>
 
                 <figure class="figure">
-                    <img src="Imagenes/meeting.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    <img src="Imagenes/meeting.jpg"  width='300' height='300' class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">A caption for the above image.</figcaption>
                 </figure>
             </div>
 
         </div>
     </div>
+
     <div class="fondo2">
         <div class="container"><br>
             <h1 class="text-center mt-5">Nosotros</h1><br>
@@ -99,43 +100,46 @@
             </div><br><br>
         </div>
     </div>
+
     <div class="fondo3">
         <div class="container"><br>
-            <h1 class="text-center mt-5">Contacto</h1>
+            <h1 class="text-center mt-5">Contacto</h1><br>
             <div class="container">
                 <div class="col-md-8 mx-auto">
                     <form>
                         <div class="container">
-                            <div class="form-group">
-                                <label class="font-weight-bold" for="nombre">Introducir su Nombre <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control" id="nombre" aria-describedby="nombrelHelp">
-                            </div>
-                            <div class="form-group">
-                                <label class="font-weight-bold" for="exampleInputEmail1">Introducir su Correo <span class="text-danger">*</span></label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            </div>
-                            <div class="form-group">
-                                <label class="font-weight-bold" for="telefono">Introducir su Teléfono </label>
-                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            </div>
-                            <div class="form-group">
-                                <label class="font-weight-bold" for="exampleFormControlTextarea1">Introducir Un Mensaje <span class="text-danger">*</span></label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-                                <small id="info" class="form-text text-muted">Los datos suministrados en este formulario seran de total confidencialidad.</small>
-                            </div>
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col">
-                                        <i class="fab fa-facebook fa-2x"></i> <i class="fab fa-instagram fa-2x"></i>
-                                    </div>
-                                    <div class="col text-right">
-                                        <button type="submit" class="btn btn-secondary btn-block">Enviar</button>
-                                    </div>
-
-
+                            <div class="col">
+                                <div class="form-group">
+                                    <label class="font-weight-bold" for="nombre">Introducir su Nombre <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="nombre" aria-describedby="nombrelHelp">
                                 </div>
+                                <div class="form-group">
+                                    <label class="font-weight-bold" for="exampleInputEmail1">Introducir su Correo <span class="text-danger">*</span></label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group">
+                                    <label class="font-weight-bold" for="telefono">Introducir su Teléfono </label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group">
+                                    <label class="font-weight-bold" for="exampleFormControlTextarea1">Introducir Un Mensaje <span class="text-danger">*</span></label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                                    <small id="info" class="form-text text-muted">Los datos suministrados en este formulario seran de total confidencialidad.</small>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col">
+                                            <i class="fab fa-facebook fa-2x"></i> <i class="fab fa-instagram fa-2x"></i>
+                                        </div>
+                                        <div class="col text-right">
+                                            <button type="submit" class="btn btn-secondary btn-block">Enviar</button>
+                                        </div>
 
-                            </div><br><br><br>
+
+                                    </div>
+
+                                </div><br><br><br>
+                            </div>
                         </div>
 
                         <div class="container">
