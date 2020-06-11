@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="Librerias/fontawesome-free/css/all.min.css">
 
     <script src="Librerias/jquery-3.3.1.min.js"></script>
+    <!-- <script src="Librerias/popper.min.js"></script> -->
     <script src="Librerias/bootstrap-4.3.1/js/bootstrap.bundle.js"></script>
     <script src="Librerias/bootstrap-4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="Librerias/bootstrap-4.3.1/js/bootstrap.js"></script>
@@ -18,18 +19,11 @@
 
 <body>
     <div class="menu"><br>
+
         <div class="text-center mb-3">
             <img src="Imagenes/arqui2.jpg" width='100' height='100' class="rounded-circle" alt="Cinque Terre">
         </div>
-        <!-- <div class="container">
-            <div class="row">
-                <div class="col">
-                <span id="subir"><p class="text-light clickable">Proyecto</p></span>
-                <span id="nosotros"><i class="fas fa-chevron-circle-up fa-3x"></i></span>
-                <span id="contacto"><i class="fas fa-chevron-circle-up fa-3x"></i></span>
-                </div>
-            </div><br>
-        </div> -->
+
         <ul class="navigation">
             <li><a id="proyecto" href="#">Proyectos</a></li>
             <li><a id="nosotros" href="#">Nosotros</a></li>
@@ -44,47 +38,49 @@
             <div class="text-center">
 
                 <figure class="figure">
-                    <img src="Imagenes/arqui2.jpg"  width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    <a href='#exampleModal' data-toggle='modal'>
+                        <img src="Imagenes/arqui2.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    </a>
                     <figcaption class="figure-caption">A caption for the above image.</figcaption>
                 </figure>
 
                 <figure class="figure">
-                    <img src="Imagenes/arqui.jpg"  width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    <img src="Imagenes/arqui.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">A caption for the above image.</figcaption>
                 </figure>
 
                 <figure class="figure">
-                    <img src="Imagenes/meeting.jpg"  width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    <img src="Imagenes/meeting.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">A caption for the above image.</figcaption>
                 </figure>
 
                 <figure class="figure">
-                    <img src="Imagenes/plano.jpg"  width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    <img src="Imagenes/plano.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">A caption for the above image.</figcaption>
                 </figure>
 
                 <figure class="figure">
-                    <img src="Imagenes/plano.jpg"  width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    <img src="Imagenes/plano.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">A caption for the above image.</figcaption>
                 </figure>
 
                 <figure class="figure">
-                    <img src="Imagenes/plano.jpg"  width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    <img src="Imagenes/plano.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">A caption for the above image.</figcaption>
                 </figure>
 
                 <figure class="figure">
-                    <img src="Imagenes/arqui2.jpg"  width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    <img src="Imagenes/arqui2.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">A caption for the above image.</figcaption>
                 </figure>
 
                 <figure class="figure">
-                    <img src="Imagenes/arqui.jpg"  width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    <img src="Imagenes/arqui.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">A caption for the above image.</figcaption>
                 </figure>
 
                 <figure class="figure">
-                    <img src="Imagenes/meeting.jpg"  width='300' height='300' class="figure-img img-fluid rounded" alt="...">
+                    <img src="Imagenes/meeting.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
                     <figcaption class="figure-caption">A caption for the above image.</figcaption>
                 </figure>
             </div>
@@ -153,6 +149,7 @@
             </div>
         </div>
     </div>
+    <?php include "./Modal/galeria.php" ?>
     <footer>
         <p class="mt-3">© 2020 by Juan Tavarez.</p><br>
     </footer>
