@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteRule    ^index?$    index.php 
+RewriteRule    ^administrador?$    administrador.php
+RewriteRule    ^galeria?$    galeria.php
+RewriteRule    ^usuarios?$    usuarios.php 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+Options -Indexes

@@ -14,7 +14,7 @@
     <script src="Librerias/bootstrap-4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="Librerias/bootstrap-4.3.1/js/bootstrap.js"></script>
     <script src="JS/index.js"></script>
-    <title>Document</title>
+    <title>Tadia Arquitectura</title>
 </head>
 
 <body>
@@ -38,7 +38,7 @@
             <div class="text-center">
 
                 <figure class="figure">
-                    <a href='#exampleModal' data-toggle='modal'>
+                    <a href='#ModalGaleria' data-toggle='modal'>
                         <img src="Imagenes/arqui2.jpg" width='300' height='300' class="figure-img img-fluid rounded" alt="...">
                     </a>
                     <figcaption class="figure-caption">A caption for the above image.</figcaption>
