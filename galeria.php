@@ -18,7 +18,70 @@
 
 <body>
     <?php include 'menu.php' ?>
-    <h2 class="text-center mt-5"><i class="fas fa-camera-retro"></i> Galeria</h2>
+    <div class="container">
+        <h2 class="text-center mt-5"><i class="fas fa-camera-retro"></i> Galeria</h2>
+        <div class="jumbotron">
+
+            <div class="text-center mb-5">
+                <button class="btn btn-secondary btn-sm text-right b" data-toggle="modal" data-target="#AgregaProyecto"><i class="fas fa-plus"></i> Proyecto</button>
+            </div>
+
+            <div class="text-center">
+
+                <figure class="figure">
+                    <a href='#ModalAdmGaleria' data-toggle='modal'>
+                        <img src="Imagenes/arqui2.jpg" width='200' height='200' class="figure-img img-fluid rounded" alt="...">
+                    </a>
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+
+                <figure class="figure">
+                    <img src="Imagenes/arqui.jpg" width='200' height='200' class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+
+                <figure class="figure">
+                    <img src="Imagenes/meeting.jpg" width='200' height='200' class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+
+                <figure class="figure">
+                    <img src="Imagenes/plano.jpg" width='200' height='200' class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+
+                <figure class="figure">
+                    <img src="Imagenes/plano.jpg" width='200' height='200' class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+
+                <figure class="figure">
+                    <img src="Imagenes/plano.jpg" width='200' height='200' class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+
+                <figure class="figure">
+                    <img src="Imagenes/arqui2.jpg" width='200' height='200' class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+
+                <figure class="figure">
+                    <img src="Imagenes/arqui.jpg" width='200' height='200' class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+
+                <figure class="figure">
+                    <img src="Imagenes/meeting.jpg" width='200' height='200' class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+                <figure class="figure">
+                    <img src="Imagenes/meeting.jpg" width='200' height='200' class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">A caption for the above image.</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <?php include "./Modal/adminGaleria.php" ?>
     <?php include 'pie.php' ?>
 </body>
 
