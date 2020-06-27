@@ -11,6 +11,8 @@
     <script src="Librerias/bootstrap-4.3.1/js/bootstrap.bundle.js"></script>
     <script src="Librerias/bootstrap-4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="Librerias/bootstrap-4.3.1/js/bootstrap.js"></script>
+    <script src="Librerias/sweetalert.min.js"></script>
+    <script src="JS/login.js"></script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

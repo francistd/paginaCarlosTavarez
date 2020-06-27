@@ -1,3 +1,9 @@
+<?php
+session_start();
+if (isset($_SESSION['usuario'])) {
+    if ($_SESSION['tipo'] == 'Administrador') {
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,6 +16,8 @@
     <script src="Librerias/bootstrap-4.3.1/js/bootstrap.bundle.js"></script>
     <script src="Librerias/bootstrap-4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="Librerias/bootstrap-4.3.1/js/bootstrap.js"></script>
+    <script src="Librerias/chart.js"></script>
+    <script src="JS/administrador.js"></script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,87 +26,26 @@
 
 <body>
     <?php include 'menu.php' ?>
-    <div class="container">
-        <h2 class="text-center mt-5"><i class="fas fa-address-book"></i> Contactos</h2>
-        <div class="mx-auto mt-5">
-            <div class="col table-responsive">
-                <table class="table table-sm table-bordered table-hover text-center ">
-                    <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Nombre</th>
-                            <th scope="col">Correo</th>
-                            <th scope="col">Teléfono</th>
-                            <th scope="col">Editar</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto@gmail.com</td>
-                            <td>849-874-8736</td>
-                            <td>
-                                <div class="btn-group" role="group" aria-label="Basic example">
-                                    <button type="button" class="btn btn-secondary"><i class="fas fa-pen-square"></i></button>
-                                    <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton@gmail.com</td>
-                            <td>849-854-9876</td>
-                            <td>
-                                <div class="btn-group" role="group" aria-label="Basic example">
-                                    <button type="button" class="btn btn-secondary"><i class="fas fa-pen-square"></i></button>
-                                    <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>Larry</td>
-                            <td>theBird@gmail.com</td>
-                            <td>849-894-3456</td>
-                            <td>
-                                <div class="btn-group" role="group" aria-label="Basic example">
-                                    <button type="button" class="btn btn-secondary"><i class="fas fa-pen-square"></i></button>
-                                    <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">4</th>
-                            <td>Clark</td>
-                            <td>theShow@gmail.com</td>
-                            <td>849-894-8856</td>
-                            <td>
-                                <div class="btn-group" role="group" aria-label="Basic example">
-                                    <button type="button" class="btn btn-secondary"><i class="fas fa-pen-square"></i></button>
-                                    <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">5</th>
-                            <td>Juan</td>
-                            <td>tavarezju@gmail.com</td>
-                            <td>849-894-9856</td>
-                            <td>
-                                <div class="btn-group" role="group" aria-label="Basic example">
-                                    <button type="button" class="btn btn-secondary"><i class="fas fa-pen-square"></i></button>
-                                    <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+    <div class="container mb-5 mt-5">
+            <div class="col ">
+                <div class="col-sm-6 mx-auto position-static">
+                    <h3 class="text-center"><i class="fas fa-address-book"></i> Volumen de contactos por mes.</h3>
+                    <canvas id="ChartContactos" width="150" height="150"></canvas>
+                </div>
             </div>
-        </div>
-    </div>
+
+    </div><br>
     <?php include 'pie.php' ?>
 </body>
 
 </html>
+
+<?php
+}else{
+    header("location: contactos");
+}
+
+}else {
+	header("location: login");
+}
+?>

@@ -2,7 +2,8 @@ RewriteEngine On
 RewriteRule    ^index?$    index.php 
 RewriteRule    ^administrador?$    administrador.php
 RewriteRule    ^galeria?$    galeria.php
-RewriteRule    ^usuarios?$    usuarios.php 
+RewriteRule    ^usuarios?$    usuarios.php
+RewriteRule    ^contactos?$    contactos.php 
 RewriteRule    ^login?$    login.php 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
